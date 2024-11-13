@@ -3,7 +3,11 @@
 * [POA y POO](#poa-y-poo)
 * [Conceptos clave](#conceptos-clave)
 * [Ventajas y desventajas](#ventajas-y-desventajas)
+  * [Ventajas](#ventajas)
+  * [Desventajas](#desventajas)
 * [Aplicaciones y lenguajes](#aplicaciones-y-lenguajes)
+  * [Aplicaciones](#aplicaciones)
+  * [Lenguajes](#lenguajes)
 * [Ejemplos](#ejemplos)
 
 # Programación Orientada a Aspectos (POA)
@@ -31,7 +35,15 @@ En POA la implementación de los conceptos son independientes. Esta independenci
 
 ## Ventajas y desventajas
 
+### Ventajas
+
+### Desventajas
+
 ## Aplicaciones y lenguajes
+
+### Aplicaciones
+
+### Lenguajes
 
 ## Ejemplos
 
