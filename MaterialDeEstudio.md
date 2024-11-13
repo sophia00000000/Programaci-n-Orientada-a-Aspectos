@@ -103,9 +103,6 @@ Aplicaciones:
 - Monitoreo del Rendimiento y Testing
 
 
-### Aplicaciones
-
-### Lenguajes
 
 ## Ejemplos
 
