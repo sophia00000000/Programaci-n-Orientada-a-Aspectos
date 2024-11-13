@@ -20,6 +20,9 @@ La evolución de los sistemas de software ha seguido un camino desde el código 
 
 >  📌 **Ejemplo:** Imagina que estás desarrollando un sistema de registro de usuarios. La validación de datos (por ejemplo, verificar que un correo electrónico sea válido) es una tarea que se repite en múltiples partes del sistema (registro, recuperación de contraseña, etc.). En lugar de repetir este código en cada lugar, la POA te permite crear un "aspecto" de validación y aplicarlo a los puntos del código donde sea necesario.
 
+   ![WhatsApp Image 2024-11-10 at 5 23 50 PM](https://github.com/user-attachments/assets/7b0111b7-74b3-47a0-9899-7fbd3ace740a)
+
+
 ## POA y POO
 
 A primera vista daría la impresión que la POA y la POO son en realidad el mismo paradigma. Sin embargo, esta primera impresión es errónea. Un análisis más profundo revela las diferencias entre los paradigmas:
