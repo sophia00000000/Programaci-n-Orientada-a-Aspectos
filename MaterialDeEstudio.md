@@ -3,12 +3,9 @@
 * [POA y POO](#poa-y-poo)
 * [Conceptos clave](#conceptos-clave)
 * [Ventajas y desventajas](#ventajas-y-desventajas)
-  * [Ventajas](#ventajas)
-  * [Desventajas](#desventajas)
 * [Aplicaciones y lenguajes](#aplicaciones-y-lenguajes)
   * [Aplicaciones](#aplicaciones)
   * [Lenguajes](#lenguajes)
-* [Ejemplos](#ejemplos)
 
 # Programación Orientada a Aspectos (POA)
 
@@ -74,12 +71,37 @@ Tiene un papel similar al del compilador en otros paradigmas, se encarga de mezc
 El resultado de este proceso de tejido es un código ejecutable de todo el sistema.
 
 
-
 ## Ventajas y desventajas
 
-### Ventajas
+POA trata de solucionar los extremos más comunes en la programación: 
 
-### Desventajas
+- Código mezclado: tener todo en un mismo módulo, que puedan simultáneamente convivir más de un requerimiento. Lo que dificulta la comprensión, el mantenimiento y la reutilización del código. 
+
+- Código diseminado: se refiere a como los requerimientos están esparcidos sobre varios módulos, lo que resulta en una implementación fragmentada y difícil de mantener. 
+
+Las ventajas sobre este paradigma es que se busca un punto de equilibrio en estos extremos, que se pueda sacar provecho, lo que permite: 
+
+1. Mayor reusabilidad 
+
+2. Legibilidad 
+
+3. Mínimo acoplamiento y máxima cohesión (independientes pero buen trabajo en equipo). 
+
+4. intensidad el principio de dividir y conquistar. 
+
+5. implementaciones modularizadas. 
+
+Así también existen desventajas al tratar de unir o implementar una manera de separar los componentes y los aspectos, pero que todo siga comunicado y trabajando en equipo, lo que genera: 
+
+1. Posibles choques entre el código funcional y el código de aspectos. 
+
+2. Posibles choques entre los aspectos (trabajan bien independientemente, pero no en equipo). 
+
+3. Fragilidad. 
+
+4. Incremento de carga computacional. 
+
+5. Documentación: Al tratarse de un paradigma relativamente nuevo comparado con otros, esto causa que la documentación e implementaciones del mismo no tengan documentaciones robustas como, por ejemplo, la programación orientada a objetos. Esto puede suponer un problema para desarrolladores con poca experiencia o para proyectos de gran envergadura que deban depender en gran medida de este paradigma. 
 
 # Aplicaciones y lenguajes
 # LOA 
@@ -102,7 +124,4 @@ Aplicaciones:
 
 - Monitoreo del Rendimiento y Testing
 
-
-
-## Ejemplos
 
