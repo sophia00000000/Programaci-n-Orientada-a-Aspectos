@@ -14,15 +14,19 @@
 
 ## ¿Qué es la POA?
 
-La Programación Orientada a Aspectos (POA) permite manejar funcionalidades transversales, como seguridad o sincronización, que atraviesan múltiples módulos de un programa. Por funcionalidades transversales nos referimos a aquellas que se repite en varias partes de un programa, independientemente de si las secciones en las que aparece tienen relación directa.
+La Programación Orientada a Aspectos (POA) es una metodología de programación que permite separar las funcionalidades transversales del código en módulos independientes llamados aspectos. Esto hace que el código sea más modular, reutilizable y fácil de mantener. Por funcionalidades transversales nos referimos a aquellas que se repite en varias partes de un programa, independientemente de si las secciones en las que aparece tienen relación directa.
 
-A diferencia de la Programación Orientada a Objetos (POO), donde se encapsulan datos y comportamientos en clases, el POA organiza "aspectos" que no se encajan bien en la estructura de objetos. Esta evolución aborda problemas de modularidad y mantenimiento, ofreciendo una estructura más compacta y especializada para la separación de preocupaciones en el desarrollo de software.
+La evolución de los sistemas de software ha seguido un camino desde el código espagueti hasta la programación orientada a objetos (POO). El código espagueti era difícil de leer y mantener debido a la falta de estructura. La POO introdujo la idea de encapsular datos y funcionalidades en objetos, lo que hizo que el código fuera más modular y reutilizable. Sin embargo, la POO no aborda bien los aspectos transversales, como la sincronización, la distribución y el manejo de errores.
+
+>  📌 **Ejemplo:** Imagina que estás desarrollando un sistema de registro de usuarios. La validación de datos (por ejemplo, verificar que un correo electrónico sea válido) es una tarea que se repite en múltiples partes del sistema (registro, recuperación de contraseña, etc.). En lugar de repetir este código en cada lugar, la POA te permite crear un "aspecto" de validación y aplicarlo a los puntos del código donde sea necesario.
 
 ## POA y POO
 
 A primera vista daría la impresión que la POA y la POO son en realidad el mismo paradigma. Sin embargo, esta primera impresión es errónea. Un análisis más profundo revela las diferencias entre los paradigmas:
 
+
 > 📝 **Nota:** La Programación Orientada a Aspectos basa su filosofía en tratar las obligaciones transversales de los programas como módulos separados.
+
 
 - Tanto la POA como la POO crean implementaciones modularizadas y con mínimo acoplamiento. 
 - La diferencia radica en que mientras la POA se enfoca en los conceptos que se entrecruzan, la POO se enfoca en los conceptos comunes y los ubica en un árbol de herencia.
@@ -30,6 +34,8 @@ A primera vista daría la impresión que la POA y la POO son en realidad el mism
   ![image](https://github.com/user-attachments/assets/097eb323-9bdb-4f1d-8a74-1b2963ae0c44)
 
 En POA la implementación de los conceptos son independientes. Esta independencia la distingue de las técnicas inherentes a la POO. En POA, el flujo de composición va desde los conceptos que se entrecruzan al concepto principal; mientras que en la POO el flujo va en dirección opuesta.
+
+La POO organiza el código en torno a objetos con atributos y métodos, mientras que la POA se enfoca en modularizar las funcionalidades transversales que afectan a múltiples objetos. La POO es ideal para modelar el mundo real en términos de objetos, mientras que la POA es excelente para manejar aspectos que cortan las fronteras de los objetos, como la gestión de transacciones o la seguridad. En resumen, la POO se ocupa de la estructura estática del sistema, mientras que la POA se enfoca en la dinámica y los aspectos transversales.
 
 # Conceptos clave
 
