@@ -73,7 +73,7 @@ El resultado de este proceso de tejido es un código ejecutable de todo el siste
 ### Desventajas
 
 # Aplicaciones y lenguajes
-## LOA 
+# LOA 
 Los Lenguajes Orientados a Aspectos son herramientas que permiten separar la lógica principal de una aplicación de las "preocupaciones transversales" como el logging, la seguridad o la gestión de transacciones. Esto se logra mediante la definición de aspectos, módulos que encapsulan esta lógica adicional y se "tejen" en el código principal en puntos específicos llamados joinpoints. 
 - AspectJ
 - Spring AOP
