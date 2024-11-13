@@ -31,7 +31,9 @@ A primera vista daría la impresión que la POA y la POO son en realidad el mism
 
 En POA la implementación de los conceptos son independientes. Esta independencia la distingue de las técnicas inherentes a la POO. En POA, el flujo de composición va desde los conceptos que se entrecruzan al concepto principal; mientras que en la POO el flujo va en dirección opuesta.
 
-## Conceptos clave
+# Conceptos clave
+
+##
 
 ## Ventajas y desventajas
 
