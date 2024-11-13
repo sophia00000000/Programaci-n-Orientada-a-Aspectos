@@ -104,7 +104,7 @@ Así también existen desventajas al tratar de unir o implementar una manera de 
 5. Documentación: Al tratarse de un paradigma relativamente nuevo comparado con otros, esto causa que la documentación e implementaciones del mismo no tengan documentaciones robustas como, por ejemplo, la programación orientada a objetos. Esto puede suponer un problema para desarrolladores con poca experiencia o para proyectos de gran envergadura que deban depender en gran medida de este paradigma. 
 
 # Aplicaciones y lenguajes
-# LOA 
+
 Los Lenguajes Orientados a Aspectos son herramientas que permiten separar la lógica principal de una aplicación de las "preocupaciones transversales" como el logging, la seguridad o la gestión de transacciones. Esto se logra mediante la definición de aspectos, módulos que encapsulan esta lógica adicional y se "tejen" en el código principal en puntos específicos llamados joinpoints. 
 - AspectJ
 - Spring AOP
